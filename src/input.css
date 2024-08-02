@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero {
+    @apply w-full h-[496px] md:h-[557px] lg:h-[721px] flex flex-row items-center justify-center overflow-hidden lg:translate-x-36;
+  }
+  .btnPrimary {
+    @apply text-sm md:text-lg bg-navy-blue p-4 text-white rounded-[5px] px-10 font-semibold hover:text-navy-blue hover:bg-navy-blue/10 border-2 border-navy-blue transition duration-300;
+  }
+  .DivBackDog {
+    @apply bg-brand-yellow w-[3000px] h-[500px] rounded-l-full rotate-[-17.91deg];
+  }
+  .card {
+    @apply w-full  flex flex-col gap-[47px] justify-center items-center;
+  }
+  .imgCard {
+    @apply w-full h-max flex justify-center items-center p-2;
+  }
+  .infoCard {
+    @apply flex flex-col gap-3 w-full justify-start;
+  }
+  .titleCard {
+    @apply font-desc text-[32px];
+  }
+  .descCard {
+    @apply flex w-[300px] text-xl;
+  }
+}

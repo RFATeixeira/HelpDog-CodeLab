@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../src/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./src/image/logo.svg" type="image/x-icon" />
+    <title>HelpDog</title>
+  </head>
+  <body class="font-body">
+    <section class="overflow-hidden w-full justify-center flex flex-col">
+      <div class="hero">
+        <div
+          class="flex flex-col gap-[80px] lg:gap-[115px] items-center lg:items-start"
+        >
+          <div>
+            <img src="./src/image/logo.svg" alt="logo HelpDog" />
+          </div>
+          <div
+            class="flex flex-col gap-12 w-full max-w-[456px] items-center lg:items-start text-center lg:text-start px-10 lg:px-0"
+          >
+            <div class="flex flex-col gap-3 w-full items-center lg:items-start">
+              <h1
+                class="font-desc text-3xl md:text-4xl lg:text-5xl leading-[30px] lg:leading-[60px]"
+              >
+                Ajude quem realmente precisa da sua ajuda.
+              </h1>
+              <div class="w-full max-w-[250px] md:max-w-[370px]">
+                <p class="text-sm md:text-lg lg:text-xl">
+                  Com apenas 1 real você pode me ajudar a alimentar cães de
+                  ruas.
+                </p>
+              </div>
+            </div>
+            <button type="button" class="btnPrimary">AJUDAR AGORA</button>
+          </div>
+        </div>
+        <div class="max-lg:hidden xl:relative relative ml-24">
+          <div>
+            <img src="./src/image/dog-1.png" alt="cão" />
+          </div>
+          <div class="DivBackDog absolute -left-36 bottom-[390px] -z-10"></div>
+        </div>
+      </div>
+    </section>
+    <main class="w-full bg-navy-blue/5 flex flex-col items-center">
+      <div
+        class="flex flex-col lg:flex-row justify-center items-center lg:pl-[-20px] gap-[27px] px-4 py-6 pb-10"
+      >
+        <div class="w-full max-w-max-w-[592px] px-4">
+          <img src="./src/image/dog-2.png" alt="cão" />
+        </div>
+        <div
+          class="w-full max-w-[592px] gap-6 flex flex-col items-center lg:items-start lg:justify-start text-center lg:text-start"
+        >
+          <div class="w-full max-w-[400px]">
+            <h2 class="font-desc text-[32px] leading-9">
+              Os cães falam, mas apenas para quem sabe ouivir.
+            </h2>
+          </div>
+          <p class="text-xl">
+            Descubra histórias encantadoras, segredos reveladores e a profunda
+            conexão entre humanos e seus leais companheiros. Prepare-se para uma
+            jornada única, onde a linguagem dos cães ganha vida para aqueles que
+            estão sintonizados com o inexplorado mundo canino.
+          </p>
+          <button class="btnPrimary mt-4" type="button">SAIBA MAIS</button>
+        </div>
+      </div>
+    </main>
+    <section class="w-full justify-center flex py-20 px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 gap-y-32">
+        <div class="card">
+          <div class="imgCard">
+            <img
+              src="./src/image/dog-3.png"
+              alt="ração canina special dog"
+              class="object-cover"
+            />
+          </div>
+          <div class="infoCard">
+            <h3 class="titleCard">Special Dog</h3>
+            <div class="descCard">
+              <p>
+                Oferece uma refeição completa rica em proteínas e vitaminas.
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btnPrimary w-full">COMPRAR AGORA</button>
+        </div>
+        <div class="card">
+          <div class="imgCard">
+            <img
+              src="./src/image/dog-4.png"
+              alt="ração canina Pedigree Biscrok"
+            />
+          </div>
+          <div class="infoCard">
+            <h3 class="titleCard">Biscrok</h3>
+            <div class="descCard">
+              <p>
+                Biscoitos crocantes em formato de ossos com cálcio e ômega 6.
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btnPrimary w-full">COMPRAR AGORA</button>
+        </div>
+        <div class="card">
+          <div class="imgCard">
+            <img src="./src/image/dog-5.png" alt="ração felina drools" />
+          </div>
+          <div class="infoCard">
+            <h3 class="titleCard">Drools</h3>
+            <div class="descCard">
+              <p>Pedaçõs reais de fígado de frango e frango em molho.</p>
+            </div>
+          </div>
+          <button type="button" class="btnPrimary w-full">COMPRAR AGORA</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
