@@ -671,9 +671,8 @@ video {
 
 .imgCard{
   display: flex;
-  height: -moz-max-content;
-  height: max-content;
-  width: 100%;
+  height: 368px;
+  width: 333px;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
@@ -1942,12 +1941,12 @@ video {
   row-gap: 6rem;
 }
 
-.gap-y-8{
-  row-gap: 2rem;
-}
-
 .gap-y-32{
   row-gap: 8rem;
+}
+
+.gap-y-8{
+  row-gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
